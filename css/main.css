@@ -355,8 +355,8 @@ header h2 {
   #projects img {
     width: 50%;
     height: auto;
-    -webkit-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
   }
   #projects img:hover {
     width: 49%;
@@ -371,8 +371,25 @@ header h2 {
   .project-title {
     margin: 60px 0 50px 0;
   }
+  a.email {
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
 
+  a.email:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #ec91c4;
+  }
+  .social-icon {
+  font-size: 2.8em;
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+  }
 
+  .social-icon:hover {
+    font-size: 3em;
+  }
 
 /*
  * Remove text-shadow in selection highlight:
