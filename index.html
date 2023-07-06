@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Alida Gorman | Portfolio</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,11 +11,15 @@
   <meta property="og:type" content="">
   <meta property="og:url" content="">
   <meta property="og:image" content="">
-
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lekton&family=Lexend+Tera&family=Raleway&display=swap" rel="stylesheet">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-
+  <!-- Fontsom Icons -->
+<script src="https://kit.fontawesome.com/7bb8c48d91.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
@@ -42,11 +46,8 @@
             <li>
               <a href="#projects">projects</a>
             </li>
-            <li>
+            <li id="last-nav-li">
               <a href="#contact">Contact</a>
-            </li>
-            <li>
-              <a href="#">Resume</a>
             </li>
           </ul>
         </nav>
@@ -54,8 +55,8 @@
         <section class="hero">
           <h1 class="name-header">Alida Gorman</h1>
           <h2 class="hero-intro-text">
-            Welcome! I'm a front-end developer with a passion for technology and
-            creating gorgeous, user-friendly UIs.
+            Hello! I'm a front-end developer with a passion for technology and
+            creating delightful UIs.
           </h2>
         </section>
       </div>
@@ -64,11 +65,12 @@
     <!-- ****************MAIN***************** -->
 
     <main>
-      <div class="content-wrapper">
+      
         <!-- ~~~~~~~~~~~~about~~~~~~~~~~~-->
         <section id="about">
           <div class="content-wrapper">
             <h2 class="main-section-header">About Me</h2>
+            <article class="about-me">
             <figure>
               <img
                 src="img/headshot.JPG"
@@ -76,27 +78,61 @@
               />
             </figure>
             <p>
-              My interest in software development began after working as a
-              technical consultant at a SaaS company. I loved creating custom
-              reports, dashboards, and workflows, as well as thinking creatively
-              to solve for complex challenges. I realized that I had a true
-              passion for technology, so I decided to enroll in a boot camp to
-              learn front-end development. It has been a joy discovering a new
-              side of software, and growing my technical abilities through
+              My interest in software development began after working in various technical in the SaaS industry. I loved to get hands on, think creatively to solve complex problems, and learn something new every day.
+              It has been a joy discovering a new
+              side of software and growing my technical abilities through
               coding!
+            </br>
+          </br>
+              Outside of software development, I love to cook,
+              read, and explore the world. As a digital nomad, I love living in the digital age where
+              I can easily travel, learn new skills and grow my career.
             </p>
-            <p>
-              Besides creating beautiful and intuitive UIs, I love to cook,
-              read, and explore the world. I have been a digital nomad for over
-              three years and am so happy to be living in the digital age where
-              I can travel while still growing my career!
-            </p>
+            </article>
           </div>
         </section>
         <!-- ~~~~~~~~~~~ Skills ~~~~~~~~~~~ -->
-        <section id="skills"></section>
+        <section id="skills">
+          <div class="content-wrapper">
         <h2 class="main-section-header">Skills & Languages</h2>
-        <p>slkadjflksajdglfkjdflgklskjflskdjgflkj</p>
+        <h3 class="skills-subheader">Developer Skills</h3>
+        <div class="dev-skills">
+          <p class="skill">
+            HTML5
+          </p>
+          <p class="skill">
+            CSS3
+          </p>
+          <p class="skill">
+            Vanilla JavaScript
+          </p>
+          <p class="skill">
+            JavacScript React
+          </p>
+          <p class="skill">
+            Responsive Web Development
+          </p>
+          <p class="skill">
+            Git & GitHub
+          </p>
+        </div>
+          <h3 class="skills-subheader">Tech Stack</h3>
+        <div class="tech-stack">
+          <p class="tech">
+            Visual Studio Code
+          </p>
+          <p class="tech">
+            Chrome DevTools
+          </p>
+          <p class="tech">
+            GitHub Pages
+          </p>
+          <p class="tech">
+            CodeSandbox
+          </p>
+        </div>
+      </div>  
+      </section>
         <!-- ~~~~~~~~~~ Projects ~~~~~~~~~~ -->
         <section id="projects">
           <div class="content-wrapper">
@@ -121,7 +157,7 @@
                   is closed or refreshed.
                 </p>
                 <p class="skills">
-                  <span>Skills:</span>JavacScript React (ES6), CSS, Data Flow,
+                  <span>Skills: </span>JavacScript React (ES6), CSS, Data Flow,
                   Local Storage, Chrome DevTools
                 </p>
               </article>
@@ -145,7 +181,7 @@
                   user-friendly and well-organized site.
                 </p>
                 <p class="skills">
-                  <span>Skills:</span>HTML5, CSS3, Flexbox, Responsive
+                  <span>Skills: </span>HTML5, CSS3, Flexbox, Responsive
                   Typography, VS Code, Git, GitHub
                 </p>
               </article>
@@ -166,7 +202,7 @@
                   generate and gather a list of random words for users to guess.
                 </p>
                 <p class="skills">
-                  <span>Skills:</span>JavaScript, HTML, CSS, JSON, DOM
+                  <span>Skills: </span>JavaScript, HTML, CSS, JSON, DOM
                   Manipulation, Git, GitHub
                 </p>
               </article>
@@ -187,11 +223,11 @@
                   and will update as repos get added or modified.
                 </p>
                 <p class="skills">
-                  <span>Skills:</span>HTML, CSS, JavacScript, APIs, Git, GitHub
+                  <span>Skills: </span>HTML, CSS, JavacScript, APIs, Git, GitHub
                 </p>
               </article>
               <!-- **Name Tag Generator** -->
-              <article class="project">
+              <article class="project" id="last-project">
                 <h3 class="project-title">Name Tage Generator</h3>
                 <figure class="project-image">
                   <a href="https://pcwd88.csb.app/">
@@ -205,7 +241,7 @@
                   user closes out or refreshes the browser.
                 </p>
                 <p class="skills">
-                  <span>Skills:</span>JavacScript React, CSS, Local Storagem
+                  <span>Skills: </span>JavacScript React, CSS, Local Storagem
                   Git, GitHub, CodeSandbox
                 </p>
               </article>
@@ -217,22 +253,25 @@
 
     <!-- ******************FOOTER****************** -->
 
-    <footer>
-      <div id="contact">
-        <h3 class="contact-header">Contact</h3>
-        <p>Let's connect!</p>
-        <p>I'd love to learn more about your ideas and opportunities!</p>
+    <footer id="contact">
+      <div class="content-wrapper">
+        <h3 class="contact-header">Let's connect!</h3>
+        <p class="contact-line">I'd love to learn more about your ideas and opportunities.</p>
+        <h4>Email:</h4>
         <address>
           <a class="email" href="mailto:atgorman@gmail.com">
             atgorman1@gmail.com
           </a>
+          </address>
           <div class="socials">
-            <a href="https://www.linkedin.com/in/alida-gorman/" target="_blank"
-              >LI icon</a
-            >
-            <a href="https://github.com/atgorman1" target="_blank">GH icon</a>
+            <h4>Social:</h4>
+            <a class="social-icon" href="https://www.linkedin.com/in/alida-gorman/" target="_blank"
+              ><i class="fa-brands fa-linkedin" style="color: #ec91c4;"></i></a>
+            <a class="social-icon" href="https://github.com/atgorman1" target="_blank"><i class="fa-brands fa-github" style="color: #ec91c4;"></i></a>
           </div>
-        </address>
+        <div class="credit">
+          <p>Coded with care by Alida Gorman <i class="fa-regular fa-heart"></i></p>
+        </div>
       </div>
     </footer>
 
