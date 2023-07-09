@@ -162,18 +162,10 @@ nav {
   margin-bottom: 60px;
 }
 
+#about,
+#skills,
 #projects {
   padding-top: 50px;
-  padding-bottom: 60px;
-}
-
-#skills {
-  padding-bottom: 80px;
-  padding-top: 80px;
-}
-
-#about {
-  padding-top: 60px;
   padding-bottom: 60px;
 }
 
@@ -202,7 +194,7 @@ h4 {
 }
 
 .project-description {
-  margin: 0 0 30px 0;
+  margin-bottom: 30px;
 }
 
 .project-link {
@@ -214,7 +206,8 @@ figure {
 }
 
 .main-section-header {
-  margin-bottom: 60px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .contact-header {
@@ -223,7 +216,7 @@ figure {
 
 .skills-subheader,
 .project-title {
-  margin-top: 45px;
+  margin-top: 35px;
   margin-bottom: 30px;
 }
 
@@ -270,9 +263,6 @@ address {
 }
 
 /********************~~~~~~~~~ MOBILE STYLES ~~~~~~~~~~**********************/
-.hero {
-  text-align: left;
-}
 
 header h2 {
   border-bottom: none;
@@ -286,6 +276,7 @@ header h2 {
 }
 #last-project {
   border-bottom: none;
+  padding-bottom: 0;
 }
 
 /********************~~~~~~~~~ TABLET STYLES ~~~~~~~~~~**********************/
@@ -313,6 +304,10 @@ header h2 {
     text-align: center;
   }
 
+  #about {
+    padding-bottom: 100px;
+  }
+
   #about img {
     width: 65%;
   }
@@ -329,8 +324,49 @@ header h2 {
     justify-content: space-between;
   }
 
+  #skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 75px;
+  }
+
+  #skills .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+  }
+
+  #skills .content-wrapper .main-section-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .dev-skills,
+  .tech-stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .project-title {
+    margin-top: 40px;
+    margin-bottom: 45px;
+  }
+  #projects figure {
+    margin-bottom: 50px;
+  }
+
   #projects img {
-    width: 65%;
+    width: 60%;
+  }
+
+  #projects p {
+    text-align: center;
   }
 
   #projects .project-links .content-wrapper {
@@ -374,7 +410,7 @@ header h2 {
 
     .main-section-header {
       padding-bottom: 40px;
-      margin-bottom: 90px;
+      margin-bottom: 75px;
     }
     #about {
       padding-bottom: 120px;
