@@ -457,7 +457,7 @@ header h2 {
     }
     .project-list {
       display: flex;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: flex-start;
       flex-flow: row wrap;
       width: 100%;
