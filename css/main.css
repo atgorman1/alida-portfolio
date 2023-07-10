@@ -508,7 +508,7 @@ header h2 {
       width: 95%;
     }
     #projects img:hover {
-      width: 64%;
+      transform: translateY(-3px);
     }
 
     #project-description {
@@ -532,14 +532,21 @@ header h2 {
       font-weight: bold;
       color: #ec91c4;
     }
-    .social-icon {
-      font-size: 2.8em;
-      -webkit-transition: 0.2s ease-in-out;
-      transition: 0.2s ease-in-out;
+
+    .socials {
+      padding-bottom: 5px;
+      padding-top: 5px;
     }
 
-    .social-icon:hover {
-      font-size: 3em;
+    .social-icon {
+      font-size: 2.8em;
+      transition: 0.5s ease-in-out;
+      color: #ec91c4;
+    }
+
+    .social-icon i:hover {
+      transform: translateY(-3px);
+      color: #152a3e;
     }
 
     /*
