@@ -130,6 +130,12 @@ footer {
   margin: 15px;
 }
 
+.code-link.code-link:click,
+.live-site-link.code-link.code-link:click {
+  background: #f4bedc;
+  border-color: #ec91c4;
+}
+
 header,
 #skills,
 footer {
@@ -140,6 +146,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: #ec91c4;
 }
 
 /** Margins & Padding **/
