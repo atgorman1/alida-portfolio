@@ -146,6 +146,9 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.social-icon i {
   color: #ec91c4;
 }
 
