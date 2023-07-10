@@ -467,9 +467,11 @@ header h2 {
     font-weight: bold;
     color: #ec91c4;
   }
-
+  .contact-line {
+    margin-bottom: 50px;
+  }
   #contact h4 {
-    margin: 50px 0 20px 0;
+    margin: 20px 0 15px 0;
   }
 
   address {
