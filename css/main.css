@@ -331,7 +331,7 @@ address {
 }
 .social-icon {
   font-size: 2.25em;
-  padding: 15px;
+  padding: 25px;
 }
 
 .credit {
@@ -545,16 +545,25 @@ header h2 {
     font-weight: bold;
     color: #ec91c4;
   }
-
+  #contact .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
   .contact-line {
     margin-bottom: 50px;
+    width: 100%;
+  }
+  .email-div,
+  .socials-div {
+    width: 45%;
   }
   #contact h4 {
     margin: 20px 0 15px 0;
   }
 
   address {
-    margin: 15px 0 20px 0;
+    margin: 25px 0;
   }
 
   /********************~~~~~~~~~ DESKTOP STYLES ~~~~~~~~~~**********************/
@@ -611,11 +620,6 @@ header h2 {
     .live-site-link:hover {
       background: #f4bedc;
       border-color: #ec91c4;
-    }
-
-    .socials {
-      padding-bottom: 5px;
-      padding-top: 5px;
     }
 
     .social-icon {
