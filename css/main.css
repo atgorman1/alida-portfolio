@@ -289,8 +289,8 @@ figure {
 
 .skills-subheader,
 .project-title {
-  margin-top: 0;
   margin-bottom: 40px;
+  margin-top: 50px;
 }
 
 .skill,
@@ -438,6 +438,11 @@ header h2 {
     align-items: flex-start;
   }
 
+  .skills-subheader,
+  .project-title {
+    margin-top: 0;
+  }
+
   .dev-skills,
   .tech-stack {
     display: flex;
@@ -579,6 +584,7 @@ header h2 {
     }
     .hero-intro-text {
       padding: 40px 0 40px 0;
+      font-size: 2em;
     }
     p {
       font-size: 1.25em;
